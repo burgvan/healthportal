@@ -1,1 +1,1409 @@
-healthportal
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>West Carleton Family Health</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/animations.css">
+
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Gudea:400, 700' rel='stylesheet' type='text/css'>
+
+
+<!--<style>
+
+.waist .goal-progress{
+  width: 100% !important;
+}
+
+
+
+</style>-->
+
+</head>
+
+
+<body>
+  
+               
+     <header class="header">
+      <div class="wrapper clearfix">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="title col-md-6 col-sm-6 col-xs-8">
+                  <div class="menu-item">
+                      <h1>West Carleton Family Health</h1>
+                    </div>
+                </div>
+                
+                <div class="menu-right col-md-6 col-sm-6 col-xs-4 pull-right">
+                  <!--mobile-btn-->
+                    <div class="menu-mobile menu-item" data-toggle="popover" data-placement="bottom">
+                      <span class="fa fa-bars"></span>
+                    </div>
+                    <!--mobile-btn-->
+                    
+                    <div class="welcome menu-item">
+                      Hello, <a href="#">Sarah</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+     </header>    
+     
+     <div class="content" role="tabpanel">
+          <div class="row tab-group versiontwo"> 
+              <div class="wrapper wrapper-xs clearfix">
+                <div class="col-md-12 col-sm-12 col-xs-12">           
+
+
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="col-md-3 col-sm-3 col-xs-3 active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span class="fa fa-stethoscope"></span>My Clinic</a></li>
+                    <li role="presentation" class="col-md-3 col-sm-3 col-xs-3"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span class="fa fa-heartbeat"></span>My Profile</a></li>                      
+                    <li role="presentation" class="col-md-3 col-sm-3 col-xs-3"><a href="#log-book" aria-controls="log-book" role="tab" data-toggle="tab"><span class="fa fa-bar-chart"></span>My Health</a></li>               
+                    <li role="presentation" class="col-md-3 col-sm-3 col-xs-3"><a href="#library" aria-controls="library" role="tab" data-toggle="tab"><span class="fa fa-book"></span>Resources</a></li>                                
+                  </ul>  
+                  </div>            
+              </div>         
+          </div>
+      </div>  
+          <div class="wrapper clearfix">  
+              <div class="tab-content col-md-12 col-sm-12 col-xs-12">
+
+                <!--PANEL MY CLINIC-->
+                <div role="tabpanel" class="tab-pane fade in active" id="home">
+                  <!--LEFT-->
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                      
+                        <!--WIDGET-->
+                        <div class="widget widget-msgs">
+                            <div class="w-head">
+                                <h2>Messages</h2>
+                                  <div class="clearfix">
+                                    <div class="action-btn new-msg">
+                                      <button type="submit" class="btn btn-green" data-toggle="modal" data-target="#compose"><span class="fa fa-pencil-square-o"></span> New message</button>                                  
+                                    </div>
+                                  </div>                                 
+                            </div>                        
+                            <div class="w-body">
+                            <div class="block">
+                              <div class="chatui-container block-content-full">
+                                  <!-- People -->
+                                  <div class="chatui-people">
+                                      <div class="chatui-people-scroll">
+                                          <!-- Online -->
+                                          <div class="list-group">
+                                              <a href="javascript:void(0)" class="list-group-item active">
+                                                  <span class="badge">2</span>
+                                                  <h5 class="list-group-item-heading"><strong>Dr. Shirley Wells</strong></h5>
+                                                  <i class="convo-date">05/24/2015</i>
+                                                  <small>Results are in</small>
+                                              </a>
+                                              <a href="javascript:void(0)" class="list-group-item">
+                                                  <h5 class="list-group-item-heading"><strong>You</strong></h5>
+                                                   <i class="convo-date">04/01/2015</i>                                    
+                                                  <small>About the medication</small>                                                
+                                              </a>
+                                              <a href="javascript:void(0)" class="list-group-item">
+                                                  <h5 class="list-group-item-heading"><strong>Dr. Sara Syed</strong></h5>
+                                                  <i class="convo-date">04/01/2015</i>
+                                                  <small>Medications are safe</small>                                                                 
+                                              </a>
+                                              <a href="javascript:void(0)" class="list-group-item">
+                                                  <h5 class="list-group-item-heading"><strong>Lisa Peterson</strong></h5>
+                                                  <i class="convo-date">04/01/2015</i>
+                                                  <small>Take penicillin daily</small>                                                                                             
+                                              </a>
+                                              <a href="javascript:void(0)" class="list-group-item">
+                                                  <h5 class="list-group-item-heading"><strong>Dr. Shirley Wells</strong></h5>
+                                                  <i class="convo-date">04/01/2015</i>
+                                                  <small>Take the medication daily</small>                                                                                      
+                                              </a>
+                                              <a href="javascript:void(0)" class="list-group-item">
+                                                  <h5 class="list-group-item-heading"><strong>You</strong></h5>
+                                                  <i class="convo-date">04/01/2015</i>
+                                                  <small>When can I start?</small>                                                
+                                              </a>
+                                              <a href="javascript:void(0)" class="list-group-item">
+                                                  <h5 class="list-group-item-heading"><strong>Dr. Sara Syed</strong> </h5>
+                                                  <i class="convo-date">04/01/2015</i>
+                                                  <small>Medications are safe</small>                                                                 
+                                              </a>
+                                              <a href="javascript:void(0)" class="list-group-item">
+                                                  <h5 class="list-group-item-heading"><strong>Lisa Peterson</strong></h5>
+                                                  <i class="convo-date">04/01/2015</i>
+                                                  <small>Take penicillin daily</small>                                                                                             
+                                              </a>
+                                              <a href="javascript:void(0)" class="list-group-item">
+                                                  <h5 class="list-group-item-heading"><strong>Dr. Shirley Wells</strong></h5>
+                                                  <i class="convo-date">04/01/2015</i>
+                                                  <small>Take the medication daily</small>                                                                                      
+                                              </a>
+                                          </div>
+                                          <!-- END Online -->
+                                      </div>
+                                  </div>
+                                  <!-- END People -->
+
+                                  <!-- Talk -->
+                                  <div class="chatui-talk">
+                                      <div class="chatui-talk-scroll">
+                                        <div class="alert alert-info msg-date">
+                                          <strong>May 24, 2015</strong>
+                                         </div>
+                                          <ul>
+                                              <li class="text-center"><small class="time"><i class="fa fa-clock-o"></i> 10:10am</small></li>
+                                              <li class="chatui-talk-msg"><h4>Dr. Shirley</h4>
+                                              Results are in Sarah.
+                                              </li>
+                                              <li class="chatui-talk-msg"><h4>Dr. Shirley</h4>They appear to be negative.
+                                              </li>
+                                              <li class="text-center"><small class="time"><i class="fa fa-clock-o"></i> 10:45am</small></li>
+                                              <li class="chatui-talk-msg chatui-talk-msg-highlight">
+                                              Okay great, thanks for letting me know! Test test test test test
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                                  <!-- END Talk -->
+
+                                  <!-- Input -->
+                                  <div class="chatui-input">
+                                      <form action="page_ready_chat.html" method="post" class="form-horizontal form-control-borderless remove-margin">
+                                          <div class="input-group">
+<!--                                               <span class="input-group-addon"><i class="fa fa-angle-right"></i></span>
+ -->                                              <input type="text" id="chatui-message" name="chatui-message" class="form-control input-lg" placeholder="Type a message and hit enter..">
+                                                  <span class="input-group-btn">
+                                                  <button class="btn btn-green btn-sm" id="btn-chat">Send</button>
+                                                  </span>
+                                          </div>
+                                      </form>
+                                  </div>
+                                  <!-- END Input -->
+                              </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!--WIDGET-->                               
+
+                        <div class="widget">
+                            <div class="w-head">
+                                <h2>News</h2>                                
+                            </div>                        
+                            <div class="w-body">
+                              <div class="news-block">
+                              <h3>Elevator Operating</h3>
+                              <p class="news-date">Posted: <span>Apr 10, 2015</span></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac fringilla ante. Duis cursus est neque, sed facilisis augue porttitor et. Quisque porta, massa id accumsan facilisis, turpis libero mattis dui, at euismod neque mi in diam. Maecenas dignissim arcu ligula, sed congue lorem porta a. Cras est diam, cursus quis massa vel, feugiat vulputate urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat.</p>
+                              </div>
+                              <div class="news-block">
+                              <h3>Your Email</h3>
+                              <p class="news-date">Posted: <span>Apr 04, 2015</span></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac fringilla ante. Duis cursus est neque, sed facilisis augue porttitor et. Quisque porta, massa id accumsan facilisis, turpis libero mattis dui, at euismod neque mi in diam. Maecenas dignissim arcu ligula.</p>
+                              </div>                              
+                            </div>
+                        </div>
+                        
+                                               
+                    </div>
+                    <!--LEFT-->
+                    
+                    <!--RIGHT-->
+                    <div class="right-container col-md-4 col-sm-4 col-xs-12">
+
+                        <div class="widget widget-appointments">
+                            <div class="w-head">
+                                <h2>Appointments</h2>                                
+                            </div>                        
+                              <div class="w-body">
+
+                                <div class="date-block upcoming inner clearfix">
+                                      <div class="apptdate">
+                                        <div class="post-date"><span><strong>26</strong><em>April 2015</em></span></div>                              
+                                      </div>
+                                      <div class="appt-details">
+                                        <h3 class="activity-title">Dr. Silverstone</h3>
+                                        <a href="#">RN Clinic <span class="fa fa-info-circle"></span></a>                                    
+                                        <p>08:30AM</p>
+                                      </div>
+                                </div>
+
+                                <div class="date-block inner clearfix">
+                                      <div class="apptdate">
+                                        <div class="post-date"><span><strong>14</strong><em>June 2015</em></span></div>
+                                        <div class="confirm-btn">
+                                        <a href="#" class="messages-link" data-toggle="modal" data-target="#confirm-appt">CONFIRM</a>
+                                        </div> 
+                                      </div>
+                                      <div class="appt-details">
+                                        <h3 class="activity-title">Dr. Smith</h3>
+                                        <a href="#">RN Clinic <span class="fa fa-info-circle"></span></a>
+                                        <p>10:30AM</p>
+                                      </div>
+                                </div>
+
+                              </div>
+                             <div class="w-body book-appt">
+                                <div class="accordion-toggle more-toggle" data-toggle="collapse" data-parent="#accordion" href="#book-appt">
+                                  <a class="messages-link">Reserve walk-in time</a>
+                                </div>
+                                <div id="book-appt" class="help-block request panel-collapse collapse">
+                                  <p>You can book an appointment for our Weekend Urgent Care Clinic only. The Urgent Care Clinic hours are from 10:30 AM to 12:30 PM on Saturday and Sunday.</p>
+                                  &nbsp;
+                                  <p>Appointments can be booked on Friday for the following Saturday and Sunday.</p>
+                                  <button type="submit" class="btn btn-green unavailable">Reserva a time</button>
+                                </div>
+                             </div>
+                          </div>
+                  
+
+                        <div class="widget">
+                            <div class="w-head">
+                                <h2>My Pharmacy</h2>                                
+                            </div>
+                            <div class="w-body">                        
+                              <form role="form">
+                                <div class="form-body">
+                                  <div class="form-group">
+                                    <label>City/Town</label>
+                                    <select class="form-control">
+                                      <option>Almonte</option>
+                                      <option>Carp</option>
+                                      <option>Gloucester</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Name</label>
+                                    <select class="form-control">
+                                      <option>Pharmasave</option>
+                                      <option>Rexall</option>
+                                      <option>Shoppers Drugmart</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="form-actions">
+                                  <button type="submit" class="btn btn-green">Save</button>
+                                </div>
+                              </form>
+
+                              <div class="help-block request">
+                                <p>Can't find your pharmacy?</p>
+                                <a type="submit" data-toggle="modal" data-target="#pharmacy">Request a pharmacy</a>                                 
+                              </div>
+
+                          </div>
+                        </div>
+                    </div>
+                    <!--RIGHT-->
+                    
+                </div>
+                <!--PANEL MY CLINIC-->
+
+
+                
+                <!--PANEL MY PROFILE-->
+                <div role="tabpanel" class="tab-pane fade" id="profile">
+                    
+ 
+                    <!--LEFT-->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+                        <div class="widget widget-goals">
+                            <div class="w-head">
+                                <h2>Goals <span class="w-head-span"></span></h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                            <div class="w-body">
+                                <div class="clearfix">
+                                  <div class="action-btn add-more">
+                                    <button type="submit" class="btn btn-green"><span class="fa fa-plus"></span>  More goals</button>                                  
+                                  </div>
+                                </div>
+                                <div class="goal-item waist">
+                                  <a href="#log-book" aria-controls="log-book" role="tab" data-toggle="tab">
+                                        <h3>Waist  &nbsp; <span class="r-delta success fa fa-arrow-up"> 3</span></h3>
+                                        <div class="stats">
+                                            <div class="clearfix">
+                                                <div class="reading">
+                                                    <div>Reading </div>
+                                                    <div><input id="waist" class="reading-n" type="number" value="90" step="1" readonly="true"><span id="change-waist" class="fa fa-pencil-square"></span></div>
+                                                </div>
+                                                <div class="goal">
+                                                    <div>Goal</div>
+                                                    <div><span class="goal-n">90</span></div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div>
+                                                <div class="goal-graph">
+                                                    <div class="goal-progress" style="width: 100%!important;">
+                                                      <span class="goal-status">100%</span>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                      </a>
+                                </div>
+                                
+                                
+                                <div class="goal-item weight">
+                                        <h3>Weight &nbsp; <span class="r-delta failure fa fa-arrow-down"> 2</span></h3>
+                                        <div class="stats">
+                                            <div class="clearfix">
+                                                <div class="reading">
+                                                    <div>Reading </div>
+                                                    <div><input id="weight" class="reading-n" type="number" value="277" step="1" readonly="true"><span id="change-weight" class="fa fa-pencil-square"></span></div>
+                                                </div>
+                                                <div class="goal">
+                                                    <div>Goal</div>
+                                                    <div><span class="goal-n">450</span></div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div>
+                                                <div class="goal-graph">
+                                                   <div class="goal-progress" style="width:62%;">
+                                                      <span class="goal-status">62%</span>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <a href="#log-book" aria-controls="log-book" role="tab" data-toggle="tab" class="goal-details">Details on your weight</a>
+                                </div>
+                                
+                                
+                                <div class="goal-item bmi">
+                                        <h3>BMI  &nbsp; <span class="r-delta success fa fa-arrow-up"> 3</span></h3>
+                                        <div class="stats">
+                                            <div class="clearfix">
+                                                <div class="reading">
+                                                    <div>Reading </div>
+                                                    <div><input id="bmi" class="reading-n" type="number" value="90" step="1" readonly="true"><span id="change-bmi" class="fa fa-pencil-square"></span></div>
+                                                </div>
+                                                <div class="goal">
+                                                    <div>Goal</div>
+                                                    <div><span class="goal-n">121</span></div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div>
+                                                <div class="goal-graph">
+                                                    <div class="goal-progress" style="width:74%;">
+                                                      <span class="goal-status">74%</span>
+                                                    </div>                                                    
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <a href="#log-book" aria-controls="log-book" role="tab" data-toggle="tab" class="goal-details">Details on your BMI</a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-8 col-xs-12">
+
+                        <!--WIDGET-->
+                         <div class="widget widget-immunization">
+                             <div class="w-head">
+                                 <h2>Immunizations</h2>
+                                 <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                             </div>                        
+                             <div class="w-body">
+                               
+                                 <div class="tabbable-line">
+                                 
+                                   <ul class="nav immunization-tabs">
+                                     <li class="active"><a href="#upcoming" data-toggle="tab">Upcoming</a></li>
+                                     <li><a href="#received" data-toggle="tab">Received</a></li>
+                                   </ul>
+                                 
+                                   <div class="tab-content">
+                                     <div class="tab-pane active" id="upcoming">
+                                       
+                                               <div class="widget-simple">
+                                                   <div class="pull-left">
+                                                       <i class="fa fa-exclamation-circle fa-3x"></i>
+                                                   </div>
+                                                   <h4 class="text-left">
+                                                       <strong>Flu Shot #3</strong><br><p>Scheduled on November 20, 2015</p>
+                                                   </h4>
+                                               </div>
+                                               <div class="widget-simple">
+                                                   <div class="pull-left">
+                                                       <i class="fa fa-exclamation-circle fa-3x"></i>
+                                                   </div>
+                                                   <h4 class="text-left">
+                                                     <strong>Quadracel (DPTP)</strong><br><p>Scheduled on December 20, 2015</p>
+                                                   </h4>
+                                               </div>
+                                               <div class="widget-simple">
+                                                   <div class="pull-left">
+                                                       <i class="fa fa-exclamation-circle fa-3x"></i>
+                                                   </div>
+                                                   <h4 class="text-left">
+                                                       <strong>Penta #3</strong><br><p>Scheduled on December 20, 2015</p>
+                                                   </h4>
+                                               </div>                                                                                                                  
+                                     </div>
+                                     <div class="tab-pane" id="received">
+                                               <div class="widget-simple">
+                                                   <div class="pull-left">
+                                                       <i class="fa fa-check-circle fa-3x"></i>
+                                                   </div>
+                                                   <h4 class="text-left">
+                                                       <strong>Flu Shot #2</strong><br><p>Received on November 20, 2000</p>
+                                                   </h4>
+                                               </div>
+                                           
+                                               <div class="widget-simple">
+                                                   <div class="pull-left">
+                                                       <i class="fa fa-check-circle fa-3x"></i>
+                                                   </div>
+                                                   <h4 class="text-left">
+                                                     <strong>Prevnar #2</strong><br><p>Received on March 20, 1996</p>
+                                                   </h4>
+                                               </div>
+                                               <div class="widget-simple">
+                                                   <div class="pull-left">
+                                                       <i class="fa fa-check-circle fa-3x"></i>
+                                                   </div>
+                                                   <h4 class="text-left">
+                                                     <strong>Flu Shot #1</strong><br><p>Received on November 20, 1988</p>
+                                                   </h4>
+                                               </div>
+                                               <div class="widget-simple">
+                                                   <div class="pull-left">
+                                                       <i class="fa fa-check-circle fa-3x"></i>
+                                                   </div>
+                                                   <h4 class="text-left">
+                                                     <strong>Prevnar #1</strong><br><p>Received on December 10, 1980</p>
+                                                   </h4>
+                                               </div> 
+                                               <div class="widget-simple">
+                                                   <div class="pull-left">
+                                                       <i class="fa fa-check-circle fa-3x"></i>
+                                                   </div>
+                                                   <h4 class="text-left">
+                                                     <strong>Adacel Polio (Tetanus,Diptheria,Pertusis,Polio)</strong><br><p>Received on July 20, 1975</p>
+                                                   </h4>
+                                               </div>                                                                                                                       
+                                         <a class="btn btn-green view-all" href="#">
+                                           View all
+                                         </a>
+                                     </div>
+                                   </div>
+                                 </div>
+                                                             
+                             </div>
+                         </div>  
+
+                         <div class="widget widget-meds">
+                            <div class="w-head">
+                                <h2>Medications</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>
+                            <div class="w-body">
+
+                                <div class="tabbable-line">
+                                
+                                  <ul class="nav immunization-tabs">
+                                    <li class="active"><a href="#oral" data-toggle="tab">Oral</a></li>
+                                    <li><a href="#tablet" data-toggle="tab">Tablet</a></li>
+                                  </ul>
+                                
+                                  <div class="tab-content">
+                                    <div class="tab-pane active" id="oral">
+                                      
+                                              <div class="widget-simple">
+                                                  <div class="pull-left">
+                                                      <i class="fa fa-medkit fa-3x"></i>
+                                                  </div>
+                                                  <h4 class="text-left">
+                                                      <strong>Atenolol</strong><br><p>Twice daily, 100mg</p>
+                                                  </h4>
+                                              </div>
+                                              <div class="widget-simple">
+                                                  <div class="pull-left">
+                                                      <i class="fa fa-medkit fa-3x"></i>
+                                                  </div>
+                                                  <h4 class="text-left">
+                                                    <strong>Metformin HCL</strong><br><p>Once daily, 100mg</p>
+                                                  </h4>
+                                              </div>
+                                              <div class="widget-simple">
+                                                  <div class="pull-left">
+                                                      <i class="fa fa-medkit fa-3x"></i>
+                                                  </div>
+                                                  <h4 class="text-left">
+                                                      <strong>Penta #3</strong><br><p>Once daily, 200mg</p>
+                                                  </h4>
+                                              </div>                                                                                                                  
+                                    </div>
+                                    <div class="tab-pane" id="tablet">
+                                              <div class="widget-simple">
+                                                  <div class="pull-left">
+                                                      <i class="fa fa-medkit fa-3x"></i>
+                                                  </div>
+                                                  <h4 class="text-left">
+                                                      <strong>Penicillin</strong><br><p>Once daily, 100mg</p>
+                                                  </h4>
+                                              </div>
+                                          
+                                              <div class="widget-simple">
+                                                  <div class="pull-left">
+                                                      <i class="fa fa-medkit fa-3x"></i>
+                                                  </div>
+                                                  <h4 class="text-left">
+                                                      <strong>Penicillin</strong><br><p>Once daily, 100mg</p>
+                                                  </h4>
+                                              </div>
+                                              <div class="widget-simple">
+                                                  <div class="pull-left">
+                                                      <i class="fa fa-medkit fa-3x"></i>
+                                                  </div>
+                                                  <h4 class="text-left">
+                                                      <strong>Penicillin</strong><br><p>Once daily, 100mg</p>
+                                                  </h4>
+                                              </div>
+                                              <div class="widget-simple">
+                                                  <div class="pull-left">
+                                                      <i class="fa fa-medkit fa-3x"></i>
+                                                  </div>
+                                                  <h4 class="text-left">
+                                                      <strong>Warfarin</strong><br><p>Once daily, 100mg</p>
+                                                  </h4>
+                                              </div> 
+                                              <div class="widget-simple">
+                                                  <div class="pull-left">
+                                                      <i class="fa fa-medkit fa-3x"></i>
+                                                  </div>
+                                                  <h4 class="text-left">
+                                                      <strong>Chloroquine Phosphate</strong><br><p>Once daily, 100mg</p>
+                                                  </h4>
+                                              </div>
+                                    </div>
+                                  </div>
+
+                                </div>                                                       
+                            </div>                          
+                         </div>                                     
+                      
+                    </div>
+
+                  <div class="col-md-4 col-sm-8 col-xs-12">
+                  
+                        <div class="widget widget-plan">
+                            <div class="w-head">
+                                <h2>Health Plan</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                              <div class="w-body">
+                                <div class="date-block upcoming inner">
+                                      <div class="apptdate">
+                                        <div class="post-date"><span><strong>30</strong><em>April 2015</em></span></div>                     
+                                      </div>
+                                      <div class="appt-details plan-details">
+                                        <div class="clearfix">
+                                          <div class="appt-reading">
+                                          <h3 class="activity-title">Flu Shot </h3>
+<!--                                           <p class="activity-status">Upcoming</p>
+ -->                                          </div>
+                                          <div class="learn-plan-info">
+                                              <a href="#">More info</a>
+                                          </div>
+                                        </div>                                        
+                                      </div>
+                                </div>
+
+                                <div class="date-block inner">
+                                      <div class="apptdate">
+                                        <div class="post-date"><span><strong>14</strong><em>June 2015</em></span></div>
+                                      </div>
+                                      <div class="appt-details plan-details">
+                                        <div class="clearfix">
+                                          <div class="appt-reading">                                        
+                                          <h3 class="activity-title">FOCT Recall</h3>
+                                          </div>
+                                          <div class="learn-plan-info">
+                                              <a href="#">More info</a>
+                                          </div>                                          
+                                        </div>
+                                      </div>
+                                </div>
+
+                                <div class="date-block inner">
+                                      <div class="apptdate">
+                                        <div class="post-date"><span><strong>04</strong><em>July 2015</em></span></div>
+                                      </div>
+                                      <div class="appt-details plan-details">
+                                        <div class="clearfix">
+                                          <div class="appt-reading">                                        
+                                          <h3 class="activity-title">Diabetic Management Assessment</h3>
+                                          </div>
+                                          <div class="learn-plan-info">
+                                              <a href="#">More info</a>
+                                          </div>                                          
+                                        </div>
+                                      </div>
+                                </div>                            
+
+                              </div>
+                        </div>
+
+
+                        <!--WIDGET-->                       
+
+                        <!--WIDGET-->
+                        <div class="widget widget-info">
+                            <div class="w-head">
+                                <h2>Basic Information</h2>
+                            </div>                        
+                            <div class="w-body general-info">
+                              <div class="demographics">
+                                <ul>
+                                <li><h3>Name:</h3> Sarah</li>
+                                <li><h3>Sex:</h3> Female</li>                               
+                                <li><h3>Date of Birth:</h3> December 21, 1955</li>
+                                <li><h3>Home Phone:</h3> 6132369809 <span class="fa fa-pencil">edit</span></li>
+                                <li><h3>Work Phone:</h3> 6132042903 Ext: 1234 <span class="fa fa-pencil">edit</span></li>
+                                <li><h3>Cell Phone:</h3> 6132830438 <span class="fa fa-pencil">edit</span></li>                                 
+                                </ul>
+                              </div>
+
+                              <div class="smoker">
+                              <ul>
+                                <li><h3>Smoker Status:</h3> Non-smoker <span class="fa fa-pencil">edit</span></li>
+                              </ul>
+                              </div>
+
+<!--                               <form role="form">
+                                <div class="form-body">
+                                  <div class="form-group">
+                                    <label>Smoker Status</label>
+                                    <select class="form-control">
+                                      <option>Daily smoker</option>
+                                      <option>Occasional smoker</option>
+                                      <option>Ex-smoker</option>
+                                      <option>Non-smoker</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="form-actions">
+                                  <button type="submit" class="btn btn-green">Save</button>
+                                </div>
+                              </form> -->
+
+                            </div>
+                             <div class="w-body other-info">
+                                <div class="accordion-toggle more-toggle" data-toggle="collapse" data-parent="#accordion" href="#other-info">
+                                  <a class="messages-link">Other information</a>
+                                </div>
+                                <div class="panel-collapse collapse" id="other-info">
+                                <ul>
+                                  <li><h3>Address Line 1:</h3> 119 Langstaff Dr.</li>
+                                  <li><h3>Address Line 2:</h3> Box 219</li>
+                                  <li><h3>City:</h3> Carp</li>
+                                  <li><h3>Province/State:</h3> ON</li>
+                                  <li><h3>Postal/Zip Code:</h3> K0A1L0</li>
+                                </ul>
+                                </div>
+                             </div>                            
+                        </div>
+                        <!--WIDGET-->  
+
+                  </div>
+
+                </div>
+
+
+                <!--PANEL MY PROFILE-->
+                
+
+                
+                <!--PANEL MY HEALTH-->
+                <div role="tabpanel" class="tab-pane fade" id="log-book">                
+                  
+                    <!--LEFT-->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        
+                        <!--WIDGET-->
+                        <div class="widget health-factor-list">
+                            <div class="w-head">
+                                <h2>Choose a Health Factor</h2>
+                            </div>                        
+                            <div class="w-body">
+                                  <div class="hidden-xs">
+                                        
+                                        <!--LIST FOR DESKTOP-->
+                                          <h3><span class="icon-factor-ecg2"></span>Vital Signs</h3>              
+                                            <ul class="listwrap">
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." checked>
+                                                <label for="...">Item 1</label>
+                                              </li>
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 2</label>
+                                              </li>
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 3</label>
+                                              </li>
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 4</label>
+                                              </li>
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 5</label>
+                                              </li>
+                                            </ul>
+                                          <h3><span class="icon-factor-medical46"></span>Lab Results</h3>              
+                                            <ul class="listwrap">
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 1</label>
+                                              </li>
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 2</label>
+                                              </li>
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 3</label>
+                                              </li>
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 4</label>
+                                              </li>
+                                              <li class="radioholder health-factor">
+                                                <input type="radio" name="health-factor" value="..." >
+                                                <label for="...">Item 5</label>
+                                              </li>
+                                            </ul>                                                                         
+                                    </div> 
+                                    
+                                    <!--LIST FOR MOBILE-->
+                                    <div class="visible-xs">
+                                      <select class="form-control">
+                                          <optgroup label="Swedish Cars">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                          </optgroup>
+                                          <optgroup label="German Cars">
+                                            <option value="mercedes">Mercedes</option>
+                                            <option value="audi">Audi</option>
+                                          </optgroup>
+                                        </select>
+                                    </div>    
+                                                            
+                            </div>
+                        </div>
+                        <!--WIDGET-->                        
+                    </div>
+                    <!--LEFT-->
+                    
+                    
+                    <!--RIGHT-->
+                    <div class="right-container col-md-8 col-sm-8 col-xs-12">
+                        <div class="widget widget-datatable">
+                            <div class="w-head">
+                                <h2>Blood Pressure</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                            <div class="w-body">
+                              <div class="hf-block">
+                                  <h3>My Goal</h3>
+                                  <p>I want to decrease my blood pressure by -8.</p>
+                                </div>
+                                
+                                <div class="hf-block">
+                                  <h3>My Health</h3>
+                                    <div class="dropdown chart-data">
+                                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                        Yearly
+                                        <span class="caret"></span>
+                                      </button>
+                                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">One week</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">One month</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Three months</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Six months</a></li>
+                                      </ul>
+                                    </div>
+                                    <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+                                </div>
+
+                                <div class="hf-block">
+                                  <h3>My Data</h3>
+                                  <div class="action-btn add-more">
+                                    <button type="submit" class="btn btn-green"><span class="fa fa-plus"></span>  Add</button>                                  
+                                  </div>
+                                  <table id="datatable" class="rwd-table table-vcenter table-condensed table-bordered">
+                                    <thead>
+                                      <tr>
+                                        <th>Date</th>
+                                        <th>Reading</th>
+                                        <th>Comments</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td data-th="Date">April 25, 2015</td>
+                                        <td data-th="Reading">7.5</td>
+                                        <td data-th="Comments">Started smoking again</td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">March 02, 2015</td>
+                                        <td data-th="Reading">10</td>
+                                        <td data-th="Comments"></td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">December 16, 2014</td>
+                                        <td data-th="Reading">9.5</td>
+                                        <td data-th="Comments"></td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">September 10, 2014</td>
+                                        <td data-th="Reading">15.5</td>
+                                        <td data-th="Comments"></td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">September 10, 2014</td>
+                                        <td data-th="Reading">15.5</td>
+                                        <td data-th="Comments"></td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">April 25, 2014</td>
+                                        <td data-th="Reading">7.5</td>
+                                        <td data-th="Comments">Stopped smoking</td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">March 02, 2012</td>
+                                        <td data-th="Reading">10</td>
+                                        <td data-th="Comments">Started smoking again</td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">December 16, 2013</td>
+                                        <td data-th="Reading">9.5</td>
+                                        <td data-th="Comments"></td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">September 10, 2012</td>
+                                        <td data-th="Reading">15.5</td>
+                                        <td data-th="Comments"></td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">September 10, 2011</td>
+                                        <td data-th="Reading">15.5</td>
+                                        <td data-th="Comments">Stopped smoking</td>
+                                      </tr> 
+                                      <tr>
+                                        <td data-th="Date">September 10, 2010</td>
+                                        <td data-th="Reading">15.5</td>
+                                        <td data-th="Comments"></td>
+                                      </tr>
+                                      <tr>
+                                        <td data-th="Date">September 10, 2009</td>
+                                        <td data-th="Reading">15.5</td>
+                                        <td data-th="Comments">Exercised</td>
+                                      </tr> 
+                                      <tr>
+                                        <td data-th="Date">September 10, 2007</td>
+                                        <td data-th="Reading">15.5</td>
+                                        <td data-th="Comments"></td>
+                                      </tr> 
+
+
+                                    </tbody>
+                                </table>                               
+
+                                </div>
+
+                        </div>
+                      </div>
+                   </div>
+                   <!--RIGHT--> 
+                </div>
+                <!--PANEL LOG BOOK-->
+ 
+
+                <!--PANEL RESOURCES-->
+                <div role="tabpanel" class="tab-pane fade" id="library">                
+ 
+
+                    <!--LEFT-->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        
+                        <!--WIDGET-->
+                        <div class="widget health-factor-list">
+                            <div class="w-head">
+                                <h2>Choose a Category</h2>
+                            </div>                        
+                            <div class="w-body">
+                                  <div class="hidden-xs">
+                                        
+                                        <!--LIST FOR DESKTOP-->
+                                            <ul id="catCheck" class="listwrap">
+                                              <li class="radioholder category active">
+                                                <input type="radio" name="category" value="#resources1" data-toggle="tab" role="tab" aria-controls="resources1" checked>
+                                                <label for="..." class="activity-title">Being Well, Exercise, and Nutrition</label>
+                                              </li>
+                                              <li class="radioholder category">
+                                                <input type="radio" name="category" value="#resources2" data-toggle="tab" role="tab" aria-controls="resources2">
+                                                <label for="..." class="activity-title">Diabetes Management</label>
+                                              </li>
+                                              <li class="radioholder category">
+                                                <input type="radio" name="category" value="#resources3" data-toggle="tab" role="tab" aria-controls="resources3">
+                                                <label for="..." class="activity-title">Health Portal Guides</label>
+                                              </li>
+                                              <li class="radioholder category">
+                                                <input type="radio" name="category" value="#resources4" data-toggle="tab" role="tab" aria-controls="resources4">
+                                                <label for="..." class="activity-title">Smoking Cessation</label>
+                                              </li>
+                                              <li class="radioholder category">
+                                                <input type="radio" name="category" value="#resources5" data-toggle="tab" role="tab" aria-controls="resources5">
+                                                <label for="..." class="activity-title">Understanding Heart and Stroke</label>
+                                              </li>
+                                              <li class="radioholder category">
+                                                <input type="radio" name="category" value="#surveys" data-toggle="tab" role="tab" aria-controls="surveys">
+                                                <label for="..." class="activity-title">Surveys</label>
+                                              </li>
+                                              <li class="radioholder category">
+                                                <input type="radio" name="category" value="#resources6" data-toggle="tab" role="tab" aria-controls="resources6">
+                                                <label for="..." class="activity-title">Other Helpful Resources</label>
+                                              </li>                                                                                            
+                                            </ul>                                   
+                                    </div> 
+                                    
+                                    <!--LIST FOR MOBILE-->
+                                    <div id="catMobile" class="visible-xs">
+                                      <select class="form-control">
+                                            <option value="#resources1" name="category" data-toggle="tab" role="tab" aria-controls="resources1">Being Well, Exercise, and Nutrition</option>
+                                            <option value="#resources2" name="category" data-toggle="tab" role="tab" aria-controls="resources2">Diabetes Management</option>
+                                            <option value="#resources3" name="category" data-toggle="tab" role="tab" aria-controls="resources3">Health Portal Guides</option>
+                                            <option value="#resources4" name="category" data-toggle="tab" role="tab" aria-controls="resources4">Smoking Cesssation</option>
+                                            <option value="#resources5" name="category" data-toggle="tab" role="tab" aria-controls="resources5">Understanding Heart and Stroke</option>
+                                            <option value="#surveys" name="category" data-toggle="tab" role="tab" aria-controls="surveys">Surveys</option>
+                                            <option value="#resources6" name="category" data-toggle="tab" role="tab" aria-controls="resources6">Other Helpful Resources</option>                                            
+                                      </select>
+                                    </div>    
+                                                            
+                            </div>
+                        </div>
+                        <!--WIDGET-->                        
+                    </div>
+                    <!--LEFT-->
+                    
+                    
+                    <!--RIGHT-->
+                    <div class="right-container col-md-8 col-sm-8 col-xs-12">
+
+
+                        <div role="tabpanel" id="resources1" class="catShow widget tab-pane active">
+                            <div class="w-head">
+                                <h2>Being Well, Exercise, and Nurtrition</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                            <div class="w-body">
+                                <h3>Resources</h3>
+                                  <ul class="reading">
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                  </ul>  
+                            </div>
+
+                        </div>
+
+                        <div role="tabpanel" id="resources2" class="catShow widget tab-pane hide">
+                            <div class="w-head">
+                                <h2>Diabetes Management</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                            <div class="w-body">
+                                <h3>Resources</h3>
+                                  <ul class="reading">
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                  </ul>  
+                            </div>
+
+                        </div>
+
+                        <div role="tabpanel" id="resources3" class="catShow widget tab-pane hide">
+                            <div class="w-head">
+                                <h2>Health Portal Guides</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                            <div class="w-body">
+                                <h3>Resources</h3>
+                                  <ul class="reading">
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                  </ul>  
+                            </div>
+
+                        </div>
+
+                        <div role="tabpanel" id="resources4" class="catShow widget tab-pane hide">
+                            <div class="w-head">
+                                <h2>Smoking Cessation</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                            <div class="w-body">
+                                <h3>Resources</h3>
+                                  <ul class="reading">
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                  </ul>  
+                            </div>
+
+                        </div>
+
+                        <div role="tabpanel" id="resources5" class="catShow widget tab-pane hide">
+                            <div class="w-head">
+                                <h2>Understanding Heart and Stroke</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                            <div class="w-body">
+                                <h3>Resources</h3>
+                                  <ul class="reading">
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                  </ul>  
+                            </div>
+
+                        </div>
+
+                        <div role="tabpanel" id="surveys" class="catShow widget tab-pane hide">
+                            <div class="w-head">
+                                <h2>Surveys</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+                            <div class="w-body form">
+                              <form role="form">
+                                <div class="form-body">
+                                  <div class="form-group">
+                                    <label>Survey</label>
+                                    <select class="form-control">
+                                      <option>Select a survey</option>                                  
+                                      <option>Survey #1</option>
+                                      <option>Survey #2</option>    
+                                      <option>Survey #3</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </form>  
+                            </div>
+
+                        </div>
+
+                        <div role="tabpanel" id="resources6" class="catShow widget tab-pane hide">
+                            <div class="w-head">
+                                <h2>Other Helpful Resources</h2>
+                                <span class="export-icon fa fa-download" data-toggle="tooltip" data-placement="top" title="Export"></span>
+                            </div>                        
+
+                            <div class="w-body">
+                                <h3>Resources</h3>
+                                  <ul class="reading">
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                      <li>Lorem Ipsum</li>
+                                  </ul>  
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+
+                  <!--RIGHT-->
+
+              <!--PANEL RESOURCES-->
+
+
+    
+
+    
+    
+    <!-- MEDS MODAL -->
+    <div class="modal fade" id="pharmacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Request a pharmacy</h4>
+          </div>
+          <div class="modal-body">
+            <p>Bacon ipsum dolor amet picanha andouille bacon, salami brisket chuck jowl pork chop t-bone boudin. </p>
+            
+            <form class="form-horizontal" id="request-form">
+              <!--form group--> 
+              <div class="form-group required">
+                <label for="inputEmail3" class="col-sm-3 control-label">Province</label>
+                <div class="col-sm-6">
+                  <select id="fProvince" name="fProvince" class="form-control">
+                      <option value="X">Select a province</option>                  
+                      <option value="ON">ON</option>
+                      <option value="BC">BC</option>
+                      <option value="NB">NB</option>
+                  </select>
+                </div>
+              </div>
+              
+              <!--form group--> 
+              <div class="form-group required">
+                <label for="inputPassword3" class="col-sm-3 control-label">City/Town</label>
+                <div class="col-sm-6">
+                  <select id="fCity" name="fCity" class="form-control">
+                      <option value="X">Select a city</option>
+                  </select>
+                </div>
+              </div>
+              
+               <!--form group-->  
+              <div class="form-group required">
+                <label for="textarea" class="col-sm-3 control-label">Store Name</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group required">
+                <label for="textarea" class="col-sm-3 control-label">Address 1</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="textarea" class="col-sm-3 control-label">Address 2</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="textarea" class="col-sm-3 control-label">Postal Code</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group required">
+                <label for="textarea" class="col-sm-3 control-label">Phone 1</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="textarea" class="col-sm-3 control-label">Phone 2</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+            </form>
+            
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+                                <!--MEDS MODAL -->
+    
+    
+
+<!-- COMPOSE MODAL -->
+    <div class="modal fade" id="compose" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">New message</h4>
+          </div>
+          <div class="modal-body">
+            <p>Send your questions or concerns about a medication or medical issue to our clinic and a doctor or nurse will respond back to you as soon as possible.</p>
+            
+            <form class="form-horizontal" id="request-form">
+            
+              <div class="form-group required">
+                <label for="textarea" class="col-sm-2 control-label">Subject</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control">
+                </div>
+              </div>            
+
+              <div class="form-group required">
+                <label for="textarea" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-9">
+                  <textarea type="text" class="form-control" placeholder="Write your question or concern here..."></textarea>
+                </div>
+              </div>
+
+            </form>
+            
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- COMPOSE MODAL -->
+
+
+      <!-- CONFIRM MODAL -->
+    <div class="modal fade sweet-alert" id="confirm-appt"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Important notice</h4>
+          </div>
+                <div class="icon success animate" style="display: block;"> <span class="line tip animateSuccessTip"></span> <span class="line long animateSuccessLong"></span> <div class="placeholder"></div> <div class="fix"></div> </div> 
+                <p class="lead text-muted" style="display: block;">Thank you for confirming your appointment with us!</p>
+                <p>If you by any means miss your appointment without giving us a short notice, you will receive a $50 fee.</p>
+                <p>If you would like to cancel your appointment, please call us at 613-764-2394 3 days before your scheduled appointment.</p> 
+                <p class="confirm-cancel"><button class="cancel btn btn-default btn-lg" tabindex="2" data-dismiss="modal" style="display: inline-block;">Close</button></p> 
+        </div>
+      </div>
+    </div>
+
+
+    
+    <!-- JavaScript -->
+  
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/regions.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/app.js"></script>
+    <script src="http://cdn.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="http://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="js/icheck.js"></script>
+        <!-- page script -->
+        <script type="text/javascript">
+        $(document).ready(function() {
+
+
+            $(function () {
+              var hash = window.location.hash;
+              hash && $('.goal-item a[href="' + hash + '"]').tab('show');              
+                $('.goal-item a').click(function (e) {
+                    e.preventDefault();
+                    $('a[href="' + $(this).attr('href') + '"]').tab('show');
+                    var scrollmem = $('.content').scrollTop();
+                    window.location.hash = this.hash;
+                    $('html,body').scrollTop(scrollmem);
+                })
+            });
+
+            document.querySelector('.confirm-btn').onclick = function(){
+              swal({
+                title: "Thank you for confirming your appointment with us!",
+                text: "If you by any means miss your appointment without giving us a short notice, you will receive a $50 fee.",
+                type: "success",
+                showCancelButton: true
+              });
+            };
+
+            $(function(){ TablesDatatables.init(); });
+
+            var TablesDatatables = function() {
+
+            return {
+            init: function() {
+            /* Initialize Bootstrap Datatables Integration */
+            App.datatables();
+
+            /* Initialize Datatables */
+            $('#datatable').dataTable({
+                bFilter: false,
+                pageLength: 10,
+                lengthMenu: [[10, 20, 30, -1], [10, 20, 30, 'All']],
+                "order": [[ 0, "desc" ]]
+            });
+
+            /* Add placeholder attribute to the search input */
+            $('.dataTables_filter input').attr('placeholder', 'Search');
+            }
+          };
+          }();
+
+          /* Changing content in Resources in desktop*/
+          $('#catCheck .category ').on('click', function() {
+
+            var activeCat = $(this).find('input').val();
+
+            
+              $('.catShow').fadeOut(0, function() {
+
+                  $('.catShow').removeClass('active');
+
+              });
+
+               $(activeCat).fadeIn(300).addClass('active').removeClass('hide');
+
+          })
+
+          /* Changing content in Resources in mobile */
+          $('#catMobile select').on('change', function() {
+
+            var activeCat = $("#catMobile select option:selected").val();;
+
+            
+              $('.catShow').fadeOut(0, function() {
+
+                  $('.catShow').removeClass('active');
+
+              });
+
+               $(activeCat).fadeIn(300).addClass('active').removeClass('hide');
+
+          })          
+
+        } );
+
+
+
+        </script>
+
+</body>
+</html>
